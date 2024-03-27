@@ -9,11 +9,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color:black;
   }
   
   li {
     float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   
   li a {
@@ -22,16 +27,132 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   li a:hover {
     background-color: #111;
+    
   }
 
   .logo{
     height: 75px;
     width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
   }
+  marquee{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: red;
+    direction: right;
+    
+  }
+  h1{
+    text-align: center;
+    color: red;
+  }  
+ .signup a{
+  text-decoration: none;
+  color: red;
+  text-align: center;
+  font-size:medium;
+  font-family: fantasy;
+}
+.signup{
+  text-align: center;
+ 
+} 
+.signup a:hover{
+  text-shadow: 2px 2px 1px black;
+
+}
+legend{
+  text-align: center;
+  font-size: xx-large;
+  color: black;
+  font-family: sans-serif;
+}
+form{
+  text-align: center;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  gap: 50px;
+  
+  
+  
+}
+.login{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  background-color: black;
+}
+input{
+  border-radius: 250px;
+  border: 250px;
+  border: solid;
+  height: 20px;
+  size: large;
+  border-width: 1px;
+  margin: auto;
+  size: 200px;
+
+  
+}
+label{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: large;
+ margin-left: 250px;
+ margin-right: 250px;
+  align-items: center;
+  display: block;
+}
+
+.slide img{
+  width: 780px;
+  display: block;
+  margin-right: 500px;
+  
+}
+.carousel{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.slide{
+  background-color: white;
+  text-align: center;
+}
+.slideshow{
+  background-color: white;
+}
+.prev-button{
+  align-items: left;
+  margin-left: 30px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.next-button{
+  align-items: right;
+  margin-left: 750px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.form-head{
+  text-align: center;
+  margin-top: 50px;
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
